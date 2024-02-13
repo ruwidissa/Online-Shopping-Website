@@ -1,0 +1,199 @@
+<html>
+    <head>
+        <title>quiz</title>
+        <link rel="stylesheet" href="../navigation.css">
+		<link rel="stylesheet" href="quiz.css">
+		
+</head>
+    </head><script src="quiz.js"> </script>
+    <body>
+        <div class="topnav">
+            <div class="logo">
+            <img src="12.png" alt="My Logo">
+        </div>
+            <a href="../Home/home.html"> Home </a>
+            <a href="../shop/shop.html"> shop </a>
+            <a href="../gallery/imagegallery.html"> gallary </a>
+            <a class="active"  href="../quiz/quiz.html"> Quiz </a>
+            <div class="dropdown">
+                <button class="dropbtn">Explore</button>
+                    <div class="dropdown-content">
+                        <a href="../cricket/cricket.html"> Cricket</a>
+                        <a href="../Football.html"> Football </a>
+                        <a href="#"> Basketball </a>
+                        <a href="/badminton.html"> Badminton </a>
+                    </div>
+            </div>
+            <a href="../about us/aboutus.html">About</a>
+            <a href="../sitemap/sitemap.html"> Sitemap </a>
+            <a href="../coustermer feedback/feedback.html">Feedback</a>
+        </div>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		
+		<div id="quizContainer">
+    <div id="currentTime" class="timer" style="color: white;" class="d-flex justify-content-end time">
+    </div>
+    </div>
+    <center><p id="timer">T: <span id="timer"></span></p></center>
+    <div class="questions">
+	
+	<div class="container">
+     <div class="heading">
+        <h1>Answer The Following Questions</h1>
+        <hr>
+     </div>
+	     <img src="sport.png" alt="sport">
+	
+    <form name="quiz">
+        <ol type="1">
+            <li>Who won the first ever Cricket World Cup in 1975?</li>
+                                        
+                <input type="radio" id="q11" name="q1" value="West Indies">
+                <label id="q111">West Indies</label><br>
+                <input type="radio" id="q12" name="q1" value="England">
+                <label id="q122">England</label><br>
+                <input type="radio" id="q13 " name="q1" value="India">
+                <label id ="q133">India</label><br>
+                <input type="radio" id="q14" name="q1" value="Australia">
+                <label id="q144">Australia</label>
+            
+
+            <li>What is the largest cricket stadium in the world?</li>
+           
+                <input type="radio" id="q21" name="q2" value="Eden Gardens">
+                <label id="q211">Eden Gardens</label><br>
+                <input type="radio" id="q22" name="q2" value="Lords">
+                <label id="q222">Lords</label><br>
+                <input type="radio" id="q23" name="q2" value="Narendra Modi Stadium">
+                <label id="q233">Narendra Modi Stadium</label><br>
+                <input type="radio" id="q24" name="q2" value="R.Premadasa Stadium">
+                <label id="q244">R.Premadasa Stadium</label>
+            
+
+            <li>How long is a game of professional football?</li>
+           
+                <input type="radio" id="q31" name="q3" value="60 minutes">
+                <label id="q311">60 minutes </label><br>
+                <input type="radio" id="q32" name="q3" value="75 minutes">
+                <label id="q322">75 minutes</label><br>
+                <input type="radio" id="q33" name="q3" value="45 minutes">
+                <label id="q333">45 minutes </label><br>
+                <input type="radio" id="q34" name="q3" value="90 minutes">
+                <label id="q344">90 minutes </label>
+            
+            <li>How many teams play in the FIFA World Cup?</li>
+           
+                <input type="radio" id="q41" name="q4" value="28">
+                <label id="q411">28 </label><br>
+                <input type="radio" id="q42" name="q4" value="16">
+                <label id="q422">16 </label><br>
+                <input type="radio" id="q43" name="q4" value="32">
+                <label id="q433">32</label><br>
+                <input type="radio" id="q44" name="q4" value="12">
+                <label id="q444">12</label>
+            
+            <li>How long is the wicket on a cricket pitch?</li>
+           
+                <input type="radio" id="q51" name="q5" value="20 yards">
+                <label id="q511">20 yards</label><br>
+                <input type="radio" id="q52" name="q5" value="22 yards">
+                <label id="q522">22 yards </label><br>
+                <input type="radio" id="q53" name="q5" value="18 yards">
+                <label id="q533">18 yards</label><br>
+                <input type="radio" id="q54" name="q5" value="24 yards">
+                <label id="q544">24 yards </label>
+            
+            <li>The rules for modern badminton were developed in which country during the 19th century?</li>
+           
+                <input type="radio" id="q61" name="q6" value="Britain">
+                <label id="q611">Britain</label><br>
+                <input type="radio" id="q62" name="q6" value="China">
+                <label id="q622">China</label><br>
+                <input type="radio" id="q63" name="q6" value="Denmark">
+                <label id="q633">Denmark </label><br>
+                <input type="radio" id="q64" name="q6" value="Brazil">
+                <label id="q644">Brazil </label>
+            
+            <li>In which year did badminton make its debut in the Summer Olympic Games?</li>
+           
+                <input type="radio" id="q71" name="q7" value="2000">
+                <label id="q711">2000 </label><br>
+                <input type="radio" id="q72" name="q7" value="1996">
+                <label id="q722">1996</label><br>
+                <input type="radio" id="q73" name="q7" value="1992">
+                <label id="q733">1992</label><br>
+				<input type="radio" id="q74" name="q7" value="1988">
+                <label id="q744">1988</label>
+
+            
+            <li>Who invented basketball?</li>
+           
+                <input type="radio" id="q81" name="q8" value="Maurice Podoloff">
+                <label id="q811">Maurice Podoloff</label><br>
+                <input type="radio" id="q82" name="q8" value="James Naismith">
+                <label id="q822">James Naismith </label><br>
+                <input type="radio" id="q83" name="q8" value="George Mikan">
+                <label id="q833">George Mikan </label><br>
+                <input type="radio" id="q84" name="q8" value="Bill Sharman">
+                <label id="q844">Bill Sharman </label>
+            
+            <li>Who won the Golden Ball at FIFA World Cup 2022?</li>
+           
+                <input type="radio" id="q91" name="q9" value="Lionel Messi">
+                <label id="q911">Lionel Messi </label><br>
+                <input type="radio" id="q92" name="q9" value="Cristiano Ronaldo">
+                <label id="q922">Cristiano Ronaldo</label><br>
+                <input type="radio" id="q93" name="q9" value="Neymar Jr">
+                <label id="q933">Neymar Jr </label><br>
+                <input type="radio" id="q94" name="q9" value="Kylian Mbappé">
+                <label id="q944">Kylian Mbappé</label>
+            
+            <li>Which basketball player is credited with the introduction of the one-handed shot?</li>
+           
+                <input type="radio" id="q101" name="q10" value="Earl Lloyd">
+                <label id="q1011">Earl Lloyd</label><br>
+                <input type="radio" id="q102" name="q10" value="George Mikan">
+                <label id="q1022">George Mikan</label><br>
+                <input type="radio" id="q103" name="q10" value="Hank Luisetti">
+                <label id="q1033">Hank Luisetti</label><br>
+                <input type="radio" id="q104" name="q10" value="Nathaniel Clifton">
+                <label id="q1044">Nathaniel Clifton</label>
+            
+
+        </ol>
+    </div>
+	</div>
+	
+        <div class="submit-btn">
+            <center>
+                <input id="sub" type="button" value="Submit" onclick="getTheValues(this.form)">
+            </center>
+        </div>
+        <div id="scoreMain"><p id="score"></p></div>
+        <center><button id="retake" style="display: none;"><a href="">Retake </a></button></center>
+        </form>
+        
+    </body>
+	
+	<script>
+    var mybutton = document.getElementById("myBtn");
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } 
+        else {
+            mybutton.style.display = "none";
+        }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+</html>
