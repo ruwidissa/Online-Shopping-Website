@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	      <meta charset="UTF-8">
+		  <meta name="description" content="web design and developement coursework">
+		  <meta name="keywords" content="Buy Products">
+		  <link rel="stylesheet" href="buyproducts.css">
+		  <link rel="stylesheet" href="main.css">
+		  <link rel="stylesheet" href="navigation.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		  <a href="../Main Page/Mainpage.html"></a>
+		  <title>Shop</title>
+		  <link rel="icon" href="favicon.ico">
+	</head>
+	<!--Navigation bar-->
+	<body>
+       <div class="topnav">
+        <div class="logo">
+            <img src="12.png" alt="My Logo">
+        </div>
+            <a href="../Home/home.html"> Home </a>
+            <a class="active"href="../shop/shop.html"> Shop </a>
+            <a href="../quiz/quiz.html"> Quiz </a>
+            <a href="../gallery/imagegallery.html"> Gallery </a>
+            <a href="../about us/aboutus.html">About</a>
+            <a href="../sitemap/sitemap.html"> Sitemap </a>
+            <a href="../coustermer feedback/feedback.html">Feedback</a>
+            <div class="dropdown">
+				<button class="dropbtn">Explore</button>
+					<div class="dropdown-content">
+						<a href="../Football.html"> Football</a>
+						<a href="../Content page basketball/basketball.html"> Basketball </a>
+						<a href="../badminton.html"> Badminton</a>
+						<a href="../cricket.html"> Cricket</a>
+					</div>
+			</div>
+        </div>
+		
+		    <div class="container-products">
+			<!--Product listing on the shop-->
+<table>	
+ <tr>
+    <td><div id="Cricket_bat">
+					<h2>Cricket bat</h2>
+					<img src="img/kookaburra.jpeg" alt="Kookaburra Kahuna Pro" style="width:22%">
+					<div class="pro">Kookaburra Kahuna Pro bat.</div>
+					<div class="pro">$ 559.00</div>
+					<div class="amount">Quantity<input type="number" placeholder="0" id="Qty1" min="0"></div>
+				</div></td>
+    <td><div id="Basketball">
+					<h2>Basketball</h2>
+					<img src="img/basketball.jpg" alt="Wilson Evolution Indoor basketball" style="width:22%">
+					<div class="pro">Wilson Evolution Indoor basketball.</div>	
+					<div class="pro">$ 339.00</div>
+					<div class="amount">Quantity<input type="number" placeholder="0" id="Qty2" min="0"></div>
+				</div></td>
+				   <td><div id="Basketball_shoes">
+					<h2>Basketball shoes</h2>
+					<img src="img/puma.jpg" alt="Wilson Evolution Indoor basketball" style="width:22%">
+					<div class="pro">Puma Fusion Nitro Basketball Shoes.</div>	
+					<div class="pro">$ 360.00</div>
+					<div class="amount">Quantity<input type="number" placeholder="0" id="Qty3" min="0"></div>
+				</div></td>
+				
+  </tr>
+  <tr>
+  <td><div id="Cricket_helmet">
+					<h2>Cricket helmet</h2>
+					<img src="img/helmet.jpg" alt="DSC Defender Cricket Helmet" style="width:22%">
+					<div class="pro">DSC Defender Cricket Helmet.</div>	
+					<div class="pro">$ 239.00</div>
+					<div class="amount"> Quantity <input type="number" placeholder="0" id="Qty4" min="0"></div>
+				</div></td>
+
+    <td><div id="Badminton_racket">
+					<h2>Badminton Racket</h2>
+					<img src="img/racket.jpg" alt="Yonex Astrox 88D Pro Badminton Racket" style="width:22%">
+					<div class="pro">Yonex Astrox 88D Pro Badminton Racket.</div>	
+					<div class="pro">$ 150.00</div>
+					<div class="amount">Quantity<input type="number" placeholder="0" id="Qty5" min="0"></div>
+				</div></td>
+				<td><div id="Badminton_net">
+					<h2 id="head7">Badminton Net</h2>
+					<img src="img/net.jpg" alt="Cosco Nylon Badminton Net" style="width:22%">
+					<div class="pro" id="pro16">Cosco Nylon Badminton Net.</div>	
+					<div class="pro" id="pro17">$ 34.00</div>
+					<div class="amount" id="pro18"> Quantity <input type="number" placeholder="0" id="Qty6" min="0"></div>
+				</div></td>
+  </tr>
+  <tr>
+    <td><div id="Shuttlecock">
+					<h2>Shuttlecock</h2>
+					<img src="img/shuttlecock.jpg" alt="Carlton shuttlecock" style="width:22%">
+					<div class="pro">Carlton shuttlecock.</div>	
+					<div class="pro">$ 40.00</div>
+					<div class="amount"> Quantity <input type="number" placeholder="0" id="Qty7" min="0"></div>
+				</div></td>
+        <td><div id="Football">
+					<h2>Football</h2>
+					<img src="img/football.jpg" alt="Addidas football" style="width:22%">
+					<div class="pro">Addidas football.</div>
+					<div class="pro">$ 250.00</div>
+					<div class="amount">Quantity<input type="number" placeholder="0" id="Qty8" min="0"></div>
+				</div></td>
+				<td><div id="Cleats">
+					<h2 id="head8">Cleats</h2>
+					<img src="img/cleats.jpg" alt="Nike cleats" style="width:22%">
+					<div class="pro">Nike cleats.</div>	
+					<div class="pro">$ 425.00</div>
+					<div class="amount"> Quantity <input type="number" placeholder="0" id="Qty9" min="0"></div>
+				</div></td>
+  </tr>	
+</table>
+</div>
+		<!--Checkout and contact information-->
+    <div class="container">
+      <h1>Checkout</h1>
+      <form id="checkout-form">
+        <h2>Billing Information</h2>
+        <label for="card-number">Credit Card Number:</label>
+        <input type="text" id="card-number" name="card-number" pattern="[0-9]{16}" required>
+        <label for="cardholder-name">Cardholder Name:</label>
+        <input type="text" id="cardholder-name" name="cardholder-name" required>
+        <label for="expiry-date">Expiry Date (MM/YY):</label>
+        <input type="text" id="expiry-date" name="expiry-date" pattern="(0[1-9]|1[0-2])\/[0-9]{2}" required>
+        <label for="cvv">CVV Number:</label>
+        <input type="text" id="cvv" name="cvv" pattern="[0-9]{3}" required>
+        
+        <h2>Contact Information</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone-number">Phone Number:</label>
+        <input type="tel" id="phone-number" name="phone-number" pattern="[0-9]{10}" required>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea>
+        
+        <button type="submit">Place Order</button>
+      </form>
+      <div id="invoice" style = "text-align: center"></div>
+	  <div id="invoice2"></div>
+	  <div id="invoice3"></div>
+	  <div id="invoice4"></div>
+	  <div id="invoice5"></div>
+	  <div id="invoice6"></div>
+	  <div id="invoice7"></div>
+	  <div id="invoice8"></div>
+	  <div id="invoice9"></div>
+	  <div id="invoice10"></div>
+	  <div id="invoice11"></div>
+    </div>
+	<!--Printing the invoice using JavaScript-->
+	 <script src="validation.js"></script>
+	 <script>
+	 	const form = document.getElementById('checkout-form');
+	 	form.addEventListener('submit', function(event) {
+	 		event.preventDefault();
+	 		const invoiceDiv = document.getElementById('invoice');
+			const invoice2Div = document.getElementById('invoice2');
+			const invoice3Div = document.getElementById('invoice3');
+			const invoice4Div = document.getElementById('invoice4');
+			const invoice5Div = document.getElementById('invoice5');
+			const invoice6Div = document.getElementById('invoice6');
+			const invoice7Div = document.getElementById('invoice7');
+			const invoice8Div = document.getElementById('invoice8');
+			const invoice9Div = document.getElementById('invoice9');
+			const invoice10Div = document.getElementById('invoice10');
+			const invoice11Div = document.getElementById('invoice11');
+	 		const name = document.getElementById('name').value;
+	 		const email = document.getElementById('email').value;
+	 		const phoneNumber = document.getElementById('phone-number').value;
+			const Qty1 = document.getElementById('Qty1').value;
+			const Qty2 = document.getElementById('Qty2').value;
+			const Qty3 = document.getElementById('Qty3').value;
+			const Qty4 = document.getElementById('Qty4').value;
+			const Qty5 = document.getElementById('Qty5').value;
+			const Qty6 = document.getElementById('Qty6').value;
+			const Qty7 = document.getElementById('Qty7').value;
+			const Qty8 = document.getElementById('Qty8').value;
+			const Qty9 = document.getElementById('Qty9').value;
+			const address = document.getElementById('address').value;
+			if (Qty1 || Qty2 || Qty3 || Qty4 || Qty5 || Qty6 || Qty7 || Qty8 || Qty9 > 0) {
+	 		const invoice = '<h2>Invoice</h2> <h2>---------------------------</h2><p>Name: ' + name + '</p><p>Email: ' + email + '</p><p>Phone Number: ' + phoneNumber + '</p>';
+	 		invoiceDiv.innerHTML = invoice;}
+			if (Qty1 > 0) {
+			const invoice2 = '<p>Product: Kookaburra Kahuna Pro bat: </p>' + '<p>Quantity: ' + Qty1 + '</p><p> Price: $'+(Qty1*559)+ '</p>' ;
+			invoice2Div.innerHTML = invoice2;}
+			if (Qty2 > 0) {
+			const invoice3 = '<p>Product: Wilson Evolution Indoor basketball: </p>' + '<p>Quantity: ' + Qty2 + '</p><p> Price: $'+(Qty2*339)+ '</p>' ;
+			invoice3Div.innerHTML = invoice3;}
+			if (Qty3 > 0) {
+			const invoice4 = '<p>Product: Puma Fusion Nitro Basketball Shoes: </p>' + '<p>Quantity: ' + Qty3 + '</p><p> Price: $'+(Qty3*360)+ '</p>' ;
+			invoice4Div.innerHTML = invoice4;}
+			if (Qty4 > 0) {
+			const invoice5 = '<p>Product: DSC Defender Cricket Helmet: </p>' + '<p>Quantity: ' + Qty4 + '</p><p> Price: $'+(Qty4*239)+ '</p>' ;
+			invoice5Div.innerHTML = invoice5;}
+			if (Qty5 > 0) {
+			const invoice6 = '<p>Product: Yonex Astrox 88D Pro Badminton Racket: </p>' + '<p>Quantity: ' + Qty5 + '</p><p> Price: $'+(Qty5*150)+ '</p>' ;
+			invoice6Div.innerHTML = invoice6;}
+			if (Qty6 > 0) {
+			const invoice7 = '<p>Product: Cosco Nylon Badminton Net: </p>' + '<p>Quantity: ' + Qty6 + '</p><p> Price: $'+(Qty6*34)+ '</p>' ;
+			invoice7Div.innerHTML = invoice7;}
+			if (Qty7 > 0) {
+			const invoice8 = '<p>Product: Carlton shuttlecock: </p>' + '<p>Quantity: ' + Qty7 + '</p><p> Price: $'+(Qty7*40)+ '</p>' ;
+			invoice8Div.innerHTML = invoice8;}
+			if (Qty8 > 0) {
+			const invoice9 = '<p>Product: Addidas football: </p>' + '<p>Quantity: ' + Qty8 + '</p><p> Price: $'+(Qty8*250)+ '</p>' ;
+			invoice9Div.innerHTML = invoice9;}
+			if (Qty9 > 0) {
+			const invoice10 = '<p>Product: Nike cleats: </p>' + '<p>Quantity: ' + Qty9 + '</p><p> Price: $'+(Qty9*425)+ '</p>' ;
+			invoice10Div.innerHTML = invoice10;}
+			if (Qty1 || Qty2 || Qty3 || Qty4 || Qty5 || Qty6 || Qty7 || Qty8 || Qty9 > 0) {
+	 		const invoice11 = '<h4>Total bill: </h4>' + '<p> $' +(Qty1*559 + Qty2*339 + Qty3*250 + Qty4*239 + Qty5*150 + Qty6*34 + Qty7*40 + Qty8*250 + Qty9*425)+ '</p>';
+	 		invoice11Div.innerHTML = invoice11;}
+			
+	 	});
+	 </script>	
+	 
+	 <!--footer of the page-->
+		<footer>
+			<p >Created by : <span class="footerName"> <a href="../about us/ruwin/ruwineditor.html"> <u>  Ruwin Dissanayake   </u></a></span>  <br>Student id : 20220378   last modified date : 05/04/2023</p>
+		</footer>
+			
+	</body>
+</html>

@@ -1,0 +1,212 @@
+body{
+		background-image:url("img/back2.jpeg");
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+		background-position: 50%;
+		background-size:cover;
+}
+nav{
+	width:100%;
+	background:black;
+	overflow:auto;
+}
+ul{
+	padding:0;
+	margin:0 0 0 150px;
+	list-style:none;
+}
+li{
+	float:left;
+}
+nav a {
+	width:100px;
+	display:block;
+	padding:20px 15px;
+	text-decoration:none;
+	font-family:Arial;
+	color:#f2f2f2;
+	text-align:center;
+}
+nav a:hover{
+	background:#ff9900;
+	transition:0.5s;
+	text-transform:uppercase;
+}
+.btn {
+  width: 20%;
+  background-color: #009900;
+  color: #000000;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align:center;
+}
+
+.btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+input[type=text],select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email],select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=tel],select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=datetime],select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.details{
+		border-radius: 5px;
+		background-color: #f2f2f2;
+		padding: 50px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom: 40px;
+		margin-top: 50px;
+		opacity:0.85;
+		width: 50%;
+	}
+.product{
+		border-radius: 5px;
+		padding: 5px;
+	}
+	
+#Cricket_bat, #Basketball, #Football, #Badminton_racket, #Shuttlecock, #Badminton_net, #Cleats, #Cricket_helmet, #Basketball_shoes{ 
+    background-color: #ffffff;
+	font-family:Tahoma;
+    text-align: center;
+    font-size: 16px;
+	opacity:0.75;
+	width:345px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	margin-top:10px;
+	padding:10px;
+	
+}
+
+
+#invoice, #invoice2, #invoice3, #invoice4, #invoice5, #invoice6, #invoice7, #invoice8, #invoice9, #invoice10, #invoice11 {
+	background-color: #ffffff;
+	opacity:0.75;
+	
+	
+}
+.pro{
+	width:70%;
+	font-size: 20px;
+	color:#000000;
+	text-align: center;
+	margin-left:50px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.amount{
+	width: 40%;
+    height: 20%;
+	font-size:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+input[type=number],select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 2px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+input[type=button],select {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: #45a049;
+}
+
+
+.button{
+	position: relative;
+	background-color: #4CAF50;
+	border-color: #FFFFFF;
+	font-family:Georgia;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 20px;
+	width: 100px;
+	text-align: center;
+}
+
+select{
+	width: 20%;
+	background-color: #ffffff;
+	color: black;
+	margin-top:10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 15px;
+	margin-left:820px;
+}
+

@@ -1,0 +1,174 @@
+body{
+    background-color: #1acf14;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+#title{
+    background-image: url("../images/bad10.jpg"); /*https://wallpaperaccess.com/full/6802493.jpg */
+    margin:0.3%;
+}
+#title{
+    background-attachment:fixed; 
+    background-repeat:repeat; 
+    background-size:cover;
+    height:100vh;
+    background-position:center;
+    
+}
+#title h1{
+    font-size:100px;
+    font-weight:500;
+    text-align: center;
+    padding-top: 55px;
+    color:#b1ffff;
+    font-family:"Playfair Display","Open Sans", "sans-serif";
+    
+}
+
+
+#thumbnailImages{
+    clear: both;
+}
+.image{  
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px; 
+    background-color: #634c4c;  
+    text-align: center;
+}
+div.image p{
+    font-size:20px;  
+    font-family:"Playfair Display","Open Sans", "sans-serif";
+    font-weight:500;
+    padding-top: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+p a{
+    color: #ffffff;
+}
+.column{  
+	padding: 10px 5px;
+    display: inline;
+    float: none;	
+}
+div.column img { 
+    width: 250px;
+    height: 150px;
+    object-position:top;
+    margin: 6px 0px;   
+    border-radius: 10px;     
+}
+div.column img:hover{
+    opacity: 0.8;
+}
+#cricketDescription, #badmintonDescription, #basketballDescription, #footballDescription {
+    display: none;  
+}
+/*style for the large image*/
+#description{
+    color: #ffffff;
+    font-size: 20px;
+    width: 50%;
+    float: right;
+    text-align: justify;
+    transform: translate(20, 0);
+}
+
+
+  
+
+  
+  
+.h3{
+    font-size:30px;
+    color:#ffffff;
+    font-family:"Playfair Display","Open Sans", "sans-serif";
+    font-weight:500;
+  
+}
+#expandedImage{
+    border: 2px #300606 solid;
+    width: 40%; 
+    height: 350px;
+  }
+  
+.largeImage{
+    display: none;
+    height: auto;
+    padding: 10px 20px;
+    background-color:rgb(136, 96, 96);
+}
+#Container{
+	margin-top:50px;
+    padding-top:50px;
+    padding-bottom: 10px;
+    background-color: rgba(34, 77, 70, 0.247);
+    border-radius: 10px;
+	height: auto;
+	opacity:0.90;
+}
+#lb1{
+    color:black;
+	font-size:20px;
+	padding:30px;
+}
+
+#lb2{
+    color:black;
+	font-size:20px;
+	padding:10px;
+}
+
+.inlineOne{display:inline-block;margin-left:10px;margin-bottom:10px;}
+.inlineTwo{display:inline-block;margin-left:10px;margin-bottom:10px;}
+
+#topColourChanger{
+    border-color: black;
+    border-width: 1px;
+    padding: 25px;
+    background-color:#cccccc;
+    display: inline-block;
+    margin-bottom:50px;
+    margin-left: 200px;
+	margin-right:auto;
+	
+}
+h2{
+    font-size:30px;
+    color:#000000;
+    font-family:"Playfair Display","Open Sans", "sans-serif";
+    font-weight:800;
+    padding-left: 20px;
+  }
+  
+  h1 {
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  
+  p{
+    font-size:16px;
+    line-height: 25px;
+    color: rgb(7, 7, 7);
+    font-family:"Open Sans", Sans-serif;
+  }
+  .footer{
+    padding: 100px 0px 20px;
+    background: #697769;
+    text-align: center;
+  }    
+  .footer h1 {
+  
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	      <meta charset="UTF-8">		  
+		  <meta name="author" content="induwara abhiman" >
+		  <link rel="stylesheet" href="induwaraeditor.css">
+		  <title>InduwaraPageEditor</title>
+		
+	</head>
+	 
+	<body>
+	  
+	 
+	 <h1>Page Editor</h1>
+	 
+	 <h2>Name: INDUWARA ABHIMAN<br>Role: Student 2<br>The following tasks done by me!</h2>
+	
+	<table>
+	
+	<tr>
+		<th>Task Number</th>
+		<th>Tasks</th> 
+	</tr>
+	<tr>
+		<td>2b</td>
+		<td>construct the navigation bar</td>
+	</tr>
+	<tr>
+		<td >6</td>
+		<td>home page </td>
+	</tr>
+	<tr>
+		<td >8</td>
+		<td>feedback form</td>
+	<tr>
+		<td >Part B</td>
+		<td>Report writing</td>
+	</tr>
+	<tr>
+		<td >10</td>
+		<td>Made an individual Page on football</td>
+	</tr>
+	<tr>
+		<td >Extra Activities</td>
+		<td>9b/11/12/13/14/15</td>
+	</tr>
+	
+	
+  
+	</table>
+	
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  
+  
+</body>
+
+  <script>
+    var mybutton = document.getElementById("myBtn");
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } 
+        else {
+            mybutton.style.display = "none";
+        }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="viewport" content="with=device-width, inital-scale=1.0">
+	<title>Home page</title>
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="../navigation.css">
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<section id="header" class="header">
+		<div class="topnav">
+			<div class="logo">
+			<img src="images/12.png" alt="My Logo">
+		</div>
+			<a class="active" href="../Home/home.html"> Home </a>
+			<a href="../Buy products and Checkout page/BuyProducts.html"> Shop </a>
+			<a href="../gallery/imagegallery.html"> Gallery </a>
+			<a href="../quiz/quiz.html"> Quiz </a>
+			<a href="../about us/aboutus.html">About</a>
+			<a href="../sitemap/sitemap.html"> Sitemap </a>
+			<a href="../coustermer feedback/feedback.html">Feedback</a>
+			<div class="dropdown">
+				<button class="dropbtn">Explore</button>
+					<div class="dropdown-content">
+						<a href="../Football.html"> Football</a>
+						<a href="../Content page basketball/basketball.html"> Basketball </a>
+						<a href="../badminton.html"> Badminton</a>
+						<a href="../cricket.html"> Cricket</a>
+					</div>
+			</div>
+		</div>
+		<div id="header-thumb"class="header-thumb">
+		
+			<a href="/Home/home.html">
+				<img src="images/logo.jpg" class="logo"/>
+			</a>
+			<h1>INSIDE SPORTZ</h1>
+			<h2>A-Z sports equpments</h2>
+			<p>Visit our shop today</p>
+			<br>
+			<a href="../Buy products and Checkout page/BuyProducts.html" class="shopbtn"> SHOP</a>
+		</div>
+	</section>
+
+<!--explore more-->
+	<div class="explor">
+		<div class="card">
+			<a href="../Football.html">
+			<div class="cardbg" style="background-image: url(images/football.jpg);">
+			<div class="content">
+			</div>
+		</div>
+		</a>
+	</div>
+	<div class="card">
+		<a href="../Content page basketball/basketball.html">
+		<div class="cardbg" style="background-image: url(images/basket\ ball.jpg);">
+		<div class="content">
+		</div>
+	</div>
+	</a>
+</div>
+<div class="card">
+	<a href="../badminton.html">
+	<div class="cardbg" style="background-image: url(images/Badminton.png);">
+	<div class="content">
+	</div>
+</div>
+	</a>
+</div>
+<div class="card">
+	<a href="../cricket.html">
+	<div class="cardbg" style="background-image: url(images/cricket.jpg);">
+	<div class="content">
+	</div>
+	</div>
+	</a>
+	</div>
+</div>
+	<section id="footer" class="footer">
+		<h1>inside sportz </h1>
+		<div class="footerrow">
+			<h3>home page created by<a href="../about us/induwara/induwaraeditor.html" target="_blank">Induwara Abhiman</a>
+				<br>
+				Student id - 20220333
+				<br>
+				uow id - W1953913
+				<br>
+				Lastly modifed - 29/03/2023
+			</h3>
+		</div>
+	</section>
+	</body>
+	<script>
+		var mybutton = document.getElementById("myBtn");
+		
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} 
+			else {
+				mybutton.style.display = "none";
+			}
+		}
+		
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		</script>
+</html>

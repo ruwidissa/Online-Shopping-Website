@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	      
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="icon" href="favicon.ico">
+	      <meta charset="UTF-8">		  
+		  <meta name="author" content="pulitha" >
+		  <link rel="stylesheet" href="pulithaeditor.css">
+		  <title>PulithaPageEditor</title>
+		
+	</head>
+	 
+	<body>
+	  
+	 
+	 <h1>Page Editor</h1>
+	 
+	 <h2>Name: Pulitha Githmal<br>Role: Student 3<br>The following tasks done by me!</h2>
+	
+	<table>
+	
+	<tr>
+		<th>Task Number</th>
+		<th>Tasks</th> 
+	</tr>
+	<tr>
+		<td>2b</td>
+		<td>We worked on together to create the navigation bar</td>
+	</tr>
+	<tr>
+		<td >6</td>
+		<td>Multiple choice quiz page </td>
+	</tr>
+	<tr>
+		<td >8</td>
+		<td>Student details page</td>
+	<tr>
+		<td >Part B</td>
+		<td>Report writing</td>
+	</tr>
+	<tr>
+		<td >10</td>
+		<td>Made an individual Page on Cricket</td>
+	</tr>
+	
+	
+  
+	</table>
+	
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  
+  
+</body>
+
+  <script>
+    var mybutton = document.getElementById("myBtn");
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } 
+        else {
+            mybutton.style.display = "none";
+        }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+</html>

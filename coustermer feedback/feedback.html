@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback form </form></title>
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="../navigation.css">
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="topnav">
+        <div class="logo">
+        <img src="images/12.png" alt="My Logo">
+    </div>
+        <a href="../Home/home.html"> Home </a>
+        <a href="../Buy products and Checkout page/BuyProducts.html"> shop </a>
+        <a href="../quiz/quiz.html"> Quiz </a>
+        <a href="../gallery/imagegallery.html"> gallary </a>
+        <a href="../about us/aboutus.html">About</a>
+        <a href="../sitemap/sitemap.html"> Sitemap </a>
+        <a class="active" href="../coustermer feedback/feedback.html">Feedback</a>
+        <div class="dropdown">
+            <button class="dropbtn">Explore</button>
+                <div class="dropdown-content">
+                    <a href="../Football.html"> Football</a>
+                    <a href="../Content page basketball/basketball.html"> Basketball </a>
+                    <a href="../badminton.html"> Badminton</a>
+                    <a href="../cricket.html"> Cricket</a>
+                </div>
+        </div>
+    </div>
+    <div class="rapper">
+        <div class="title">
+            Coustomer feedback
+        </div>
+        <form action="mailto:induwaraabhiman79@gmail.com">
+            <fieldset id="forms">
+                <h3>type your name:</h3>
+                <div class="box1">
+                    <input class="input3" type="text" name="fullname" id="fullname" placeholder="Full Name">
+                    <span class="focus-input3"></span>
+                </div>
+                <h3>How would you rate our website:</h3>
+                <div class="box2">
+                    <label for="0">0</label> <input class="input-radio3" type="radio" id="0" name="rating" value="0">
+                    <label for="1">1</label> <input class="input-radio3" type="radio" id="1" name="rating" value="1"> 
+                    <label for="2">2</label> <input class="input-radio3" type="radio" id="2" name="rating" value="2">				
+                    <label for="3">3</label> <input class="input-radio3" type="radio" id="3" name="rating" value="3">
+                    <label for="4">4</label> <input class="input-radio3" type="radio" id="4" name="rating" value="4">
+                    <label for="5">5</label> <input class="input-radio3" type="radio" id="5" name="rating" value="5">
+                    <label for="6">6</label> <input class="input-radio3" type="radio" id="6" name="rating" value="6">
+                    <label for="7">7</label> <input class="input-radio3" type="radio" id="7" name="rating" value="7">
+                    <label for="8">8</label> <input class="input-radio3" type="radio" id="8" name="rating" value="8">
+                    <label for="9">9</label> <input class="input-radio3" type="radio" id="9" name="rating" value="9">
+                    <label for="4">10</label> <input class="input-radio3" type="radio" id="10" name="rating" value="10">
+                </div>
+                <br>
+                <h3>plese tell us about your experience in the wedsite</h3>
+                <div class="box1">
+                    <textarea class="input3" id="feedback" name="feedback" rows="5" cols="30" placeholder="Tell us about your experience"></textarea>
+                    <span class="focus-input3"></span>
+                </div>
+                <div>
+                <h3>How did you know about our wedsite</h3>
+                <select class="box1">
+                    <option value="method"> --please select-- </option>
+                    <option v alue="method"> phone </option>
+                    <option value="method"> wedsite </option>
+                    <option value="method"> social media </option>
+                    <option value="method"> email</option>
+                </select>
+                <span class="focus-input3"></span>
+                </div>
+                <div class="box">
+                    <button type="reset">Reset</button>
+                    
+                </div>
+                <div class="box">
+                    <button type="submit" onclick="required()">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+<script>
+    var mybutton = document.getElementById("myBtn");
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } 
+        else {
+            mybutton.style.display = "none";
+        }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+</html>
