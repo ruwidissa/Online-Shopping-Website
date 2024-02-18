@@ -1,0 +1,76 @@
+
+<html>
+    <head>
+        <title>Football</title>
+        <link rel="stylesheet" href="navigation.css">
+		<link rel="stylesheet" href="football.css">
+        
+    </head>
+    <body>
+        <div class="topnav">
+            <div class="logo">
+            <img src="images/12.png" alt="My Logo">
+        </div>
+            <a href="Home/home.html"> Home </a>
+            <a href="../Buy products and Checkout page/BuyProducts.html"> Shop </a>
+            <a href="quiz/quiz.html"> Quiz </a>
+            <a href="gallery/imagegallery.html"> Gallery </a>
+            <a href="about us/aboutus.html">About</a>
+            <a href="sitemap/sitemap.html"> Sitemap </a>
+            <a href="coustermer feedback/feedback.html">Feedback</a>
+            <div class="dropdown">
+				<button class="dropbtn">Explore</button>
+					<div class="dropdown-content">
+						<a class="active" href="Football.html"> Football</a>
+						<a href="Content page basketball/basketball.html"> Basketball </a>
+						<a href="badminton.html"> Badminton</a>
+						<a href="cricket.html"> Cricket</a>
+					</div>
+			</div>
+        </div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	
+	<h1>Football</h1>
+	<div class="c1">
+	<img src="images/history football.jpg" class="img1">
+	
+		<div class="container">
+            <h3>History of football</h3>
+			<p>The Chinese competitive game cuju (蹴鞠) resembles modern association football.It existed during the Han dynasty and possibly the Qin dynasty, in the
+             second and third centuries BC, attested by descriptions in a military manual. The Japanese version of cuju is kemari (蹴鞠), and was developed during the 
+             Asuka period. This is known to have been played within the Japanese imperial court in Kyoto from about 600 AD. In kemari, 
+                several people stand in a circle and kick a ball to each other, trying not to let the ball drop to the ground (much like keepie uppie).</p>
+		</div>
+
+		<img src="images/img2.jpg" class="img2">
+
+		<div class="container2">
+            <h3>FIFA World Cup</h3>
+				<p>The FIFA World Cup, often simply called the World Cup, is an international association football competition contested by the senior men's national teams of the members of the Fédération Internationale de Football Association (FIFA), the sport's global governing body. The tournament has been held every four years since the inaugural tournament in 1930, except in 1942 and 1946 when it was not held because of the Second World War.
+                     The reigning champions are Argentina, who won their third title at the 2022 tournament.</p>
+                <p>The format involves a qualification phase, which takes place over the preceding three years, to determine which teams qualify for the tournament phase. In the tournament phase, 32 teams compete for the title at venues within the host nation(s) over about a month. The host nation(s) automatically qualify to the group stage of the tournament. 
+                    The FIFA World Cup has been scheduled to expand to 48 teams for the 2026 tournament.</p>
+                <p>Seventeen countries have hosted the World Cup, most recently Qatar, who hosted the 2022 edition. The 2026 tournament will be jointly hosted by Canada, the United States and Mexico, which will give Mexico the distinction of being the first country to host games in three World Cups</p>
+		</div>
+	</div>
+</body>
+<script>
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		mybutton.style.display = "block";
+	} 
+	else {
+		mybutton.style.display = "none";
+	}
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</html>

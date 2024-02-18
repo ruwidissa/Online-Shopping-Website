@@ -1,0 +1,116 @@
+body{
+  background-color: coral;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#title{
+  background-image: url("images/bad4.jpg"); /*https://wallpaperaccess.com/full/6802493.jpg */
+  
+  
+}
+#title{
+  background-attachment:fixed; 
+ 
+  background-size:cover;
+  height:50vh;
+  background-position:left;
+  
+}
+#title h1{
+  font-size:100px;
+  font-weight:500;
+  text-align: center;
+  padding-top: 100px;
+  color:#b1ffff;
+  font-family:"Playfair Display","Open Sans", "sans-serif";
+  
+}
+.container_A{
+  margin: 1%;
+  background-color: rgb(188, 253, 168);
+  width:98%;
+  border: 5px solid black;
+  
+  border-width: 3px;
+  height: 70vh;
+}
+.para_A{
+  float: right;
+  width: 55%;
+  text-align: justify;
+  margin: 1%;
+  display: 100vh;
+  
+  
+}
+.imgA{
+  float:left;
+  width: 40%;
+  margin: 1%;
+  border: 3px solid white;
+  border-radius: 20px;
+}
+.container_B{
+  margin: 1%;
+  background-color: rgb(209, 240, 191);
+  width:98%;
+  border: 5px solid black;
+  
+  border-width: 3px;
+  height: 75vh;
+}
+.para_B{
+  float: left;
+  width: 55%;
+  text-align: justify;
+  margin: 1%;
+  
+  
+  
+}
+.imgB{
+  float:right;
+  width: 40%;
+  margin: 1%;
+  border: 3px solid white;
+  border-radius: 20px;
+}
+h2{
+  font-size:30px;
+  color:#000;
+  font-family:"Playfair Display","Open Sans", "sans-serif";
+  font-weight:800;
+  padding-left: 20px;
+}
+
+h1 {
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+p{
+  font-size:16px;
+  line-height: 25px;
+  color: rgb(7, 7, 7);
+  font-family:"Open Sans", Sans-serif;
+  font-weight: 550;
+}
+.footer{
+  padding: 100px 0px 20px;
+  background: #697769;
+  text-align: center;
+}    
+.footer h1 {
+
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
